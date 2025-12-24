@@ -1093,7 +1093,20 @@
         <p class="section-subtitle">
             How this portfolio is built, deployed, and delivered using cloud-native DevOps practices
         </p>
-    
+        <div class="deployment-intro">
+            <p>
+                <strong>This portfolio website is itself a live production deployment.</strong>
+                The same site you are viewing is containerized, deployed on a
+                <strong>Google Kubernetes Engine (GKE)</strong> cluster, and continuously
+                delivered using modern DevOps practices.
+            </p>
+        
+            <p style="margin-top: 0.75rem;">
+                The section below outlines <em>how this website is built, deployed, and operated</em>
+                — from infrastructure provisioning to CI/CD automation.
+            </p>
+        </div>
+        
         <div class="skills-grid">
             <div class="skill-card">
                 <div class="skill-icon"><i class="fas fa-network-wired"></i></div>
@@ -1137,7 +1150,7 @@
     
                 <a href="https://github.com/Himansri21/GCP-cluster-terraform"
                    target="_blank"
-                   class="btn btn-outline"
+                   class="btn btn-primary"
                    style="margin-top: 1.2rem; display: inline-block;">
                     View Terraform Code
                 </a>
@@ -1147,9 +1160,11 @@
                 <div class="skill-icon"><i class="fas fa-globe"></i></div>
                 <h3 class="skill-title">Live Deployment</h3>
                 <p class="timeline-description">
-                    The application is exposed via a Kubernetes LoadBalancer service and is publicly accessible at:
+                    You are currently viewing this website as it runs on a
+                    <strong>GKE-hosted Kubernetes cluster</strong>.
+                    The service is exposed using a Kubernetes LoadBalancer and is accessible at:
                 </p>
-    
+                
                 <p style="margin-top: 1rem; font-size: 1.2rem;">
                     🌐
                     <a href="http://34.93.198.75"
@@ -1158,9 +1173,9 @@
                         http://34.93.198.75
                     </a>
                 </p>
-    
+                
                 <p style="margin-top: 0.5rem; color: var(--text-secondary);">
-                    <em>(Live GKE deployment)</em>
+                    <em>(Same portfolio, live from a GKE cluster)</em>
                 </p>
             </div>
         </div>
