@@ -1087,6 +1087,86 @@
         </div>
     </section>
 
+    <!-- Infrastructure & Deployment Section -->
+    <section class="skills" id="infrastructure">
+        <h2 class="section-title">Infrastructure & Deployment</h2>
+        <p class="section-subtitle">
+            How this portfolio is built, deployed, and delivered using cloud-native DevOps practices
+        </p>
+    
+        <div class="skills-grid">
+            <div class="skill-card">
+                <div class="skill-icon"><i class="fas fa-network-wired"></i></div>
+                <h3 class="skill-title">Kubernetes Hosting</h3>
+                <p class="timeline-description">
+                    This website is containerized and deployed on a <strong>Google Kubernetes Engine (GKE)</strong>
+                    cluster with <strong>2 worker nodes</strong>, providing high availability and scalability.
+                </p>
+                <div class="skill-list" style="margin-top: 1rem;">
+                    <span class="skill-tag">GKE</span>
+                    <span class="skill-tag">Kubernetes</span>
+                    <span class="skill-tag">LoadBalancer</span>
+                </div>
+            </div>
+    
+            <div class="skill-card">
+                <div class="skill-icon"><i class="fas fa-code-branch"></i></div>
+                <h3 class="skill-title">CI/CD Pipeline</h3>
+                <p class="timeline-description">
+                    A fully automated <strong>GitHub Actions</strong> pipeline builds Docker images,
+                    pushes them to <strong>Google Artifact Registry</strong>, and deploys them to GKE
+                    on every commit.
+                </p>
+    
+                <a href="https://github.com/Himansri21/Himansri21.github.io"
+                   target="_blank"
+                   class="btn btn-primary"
+                   style="margin-top: 1.2rem; display: inline-block;">
+                    View CI/CD & Website Repo
+                </a>
+            </div>
+    
+            <div class="skill-card">
+                <div class="skill-icon"><i class="fas fa-layer-group"></i></div>
+                <h3 class="skill-title">Infrastructure as Code</h3>
+                <p class="timeline-description">
+                    The entire cloud infrastructure — including the GKE cluster, networking,
+                    and IAM — is provisioned using <strong>Terraform</strong> following
+                    Infrastructure as Code best practices.
+                </p>
+    
+                <a href="https://github.com/Himansri21/GCP-cluster-terraform"
+                   target="_blank"
+                   class="btn btn-outline"
+                   style="margin-top: 1.2rem; display: inline-block;">
+                    View Terraform Code
+                </a>
+            </div>
+    
+            <div class="skill-card">
+                <div class="skill-icon"><i class="fas fa-globe"></i></div>
+                <h3 class="skill-title">Live Deployment</h3>
+                <p class="timeline-description">
+                    The application is exposed via a Kubernetes LoadBalancer service and is publicly accessible at:
+                </p>
+    
+                <p style="margin-top: 1rem; font-size: 1.2rem;">
+                    🌐
+                    <a href="http://34.93.198.75"
+                       target="_blank"
+                       style="color: var(--accent); font-weight: 600;">
+                        http://34.93.198.75
+                    </a>
+                </p>
+    
+                <p style="margin-top: 0.5rem; color: var(--text-secondary);">
+                    <em>(Live GKE deployment)</em>
+                </p>
+            </div>
+        </div>
+    </section>
+
+
     <!-- Stats Section -->
     <section class="stats">
         <div class="stats-container">
