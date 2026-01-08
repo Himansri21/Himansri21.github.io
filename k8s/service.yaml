@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: portfolio-service
+  namespace: website
+  labels:
+    app: portfolio
+spec:
+  type: LoadBalancer
+  selector:
+    app: portfolio
+  ports:
+  - port: 80
+    targetPort: 80
+    protocol: TCP
+  sessionAffinity: None
