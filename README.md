@@ -57,7 +57,7 @@ This is a personal portfolio website built with HTML/CSS/JavaScript, containeriz
 │   ├── service.yaml              # Kubernetes Service manifest
 │   └── ingress.yaml              # Kubernetes Ingress manifest (optional)
 ├── index.html                    # Main HTML file
-├── website.html                  # Additional page
+├── website.html                  # Additional page for testing
 ├── Dockerfile                    # Docker container configuration
 └── README.md                     # This file
 ```
