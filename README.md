@@ -51,7 +51,7 @@ This is a personal portfolio website built with HTML/CSS/JavaScript, containeriz
 .
 ├── .github/
 │   └── workflows/
-│       └── docker-build.yml      # CI/CD pipeline configuration
+│       └─ main.yml      # CI/CD pipeline configuration
 ├── k8s/
 │   ├── deployment.yaml           # Kubernetes Deployment manifest
 │   ├── service.yaml              # Kubernetes Service manifest
@@ -432,7 +432,7 @@ Infrastructure repository: [GCP-cluster-terraform](https://github.com/Himansri21
 │  │  Namespace: website                 │    │
 │  │                                     │    │
 │  │  ┌────────────────────────────────┐ │    │
-│  │  │  Deployment: portfolio-website │ │    │
+│  │  │  Deployment: portfolio-website │ │    │ 
 │  │  │  Replicas: 2                   │ │    │
 │  │  │  Image: latest                 │ │    │
 │  │  └────────────────────────────────┘ │    │
